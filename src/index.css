@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  
+  -moz-osx-font-smoothing: grayscale;
+}
+::-webkit-scrollbar {
+  width: 2px;
+  
+}
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 30px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+table, td {
+  border:1px solid #8591A2;
+  border-collapse: collapse;
+}
+
+.userNav{
+  border-top:.5px solid #C4DDFF
+}
+
+.border-bottom{
+  border-bottom:.5px solid #C4DDFF
+}
+.borderCustom{
+  border:.5px solid #C4DDFF
+}
+
+.custom-shadow{
+ box-shadow:0px 1px 2px rgba(0, 0, 0, 0.25)
+}
+
+.borderInputCustom{
+  border:.5px solid #8591A2
+}

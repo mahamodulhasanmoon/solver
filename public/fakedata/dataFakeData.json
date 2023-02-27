@@ -1,0 +1,103 @@
+[
+    {
+        "_id": "1",
+        "status": "Ask",
+        "count": 0
+    },
+    {
+        "_id": "2",
+        "status": "Post",
+        "count": 0
+    },
+    {
+        "_id": "3",
+        "status": "Save",
+        "count": 0
+    },
+    {
+        "_id": "4",
+        "status": "See",
+        "count": 0
+    },
+    {
+        "_id": "5",
+        "status": "Ans",
+        "count": 0
+    },
+    {
+        "_id": "6",
+        "status": "Comment",
+        "count": 0
+    },
+    {
+        "_id": "7",
+        "status": "Add mate",
+        "count": 0
+    },
+    {
+        "_id": "8",
+        "status": "Auto mate",
+        "count": 0
+    },
+    {
+        "_id": "9",
+        "status": "Solve ⬆",
+        "count": 0
+    },
+    {
+        "_id": "10",
+        "status": "solve ⬇",
+        "count": 0
+    },
+    {
+        "_id": "11",
+        "status": "Report ⬆",
+        "count": 0
+    },
+    {
+        "_id": "12",
+        "status": "Report ⬇",
+        "count": 0
+    },
+    {
+        "_id": "13",
+        "status": "Heart ⬆",
+        "count": 0
+    },
+    {
+        "_id": "14",
+        "status": "Heart ⬇",
+        "count": 0
+    },
+    {
+        "_id": "15",
+        "status": "B.Heart ⬆",
+        "count": 0
+    },
+    {
+        "_id": "16",
+        "status": "B.Heart ⬇",
+        "count": 0
+    },
+    
+    {
+        "_id": "17",
+        "status": "Post Visit ⬆",
+        "count": 0
+    },
+    {
+        "_id": "18",
+        "status": "Post Visit ⬇",
+        "count": 0
+    },
+    {
+        "_id": "19",
+        "status": "Views ⬆",
+        "count": 0
+    },
+    {
+        "_id": "20",
+        "status": "Views ⬇",
+        "count": 0
+    }
+]

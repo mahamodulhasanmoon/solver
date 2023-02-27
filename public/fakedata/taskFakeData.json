@@ -1,0 +1,30 @@
+[
+    {   "_id":"1",
+        "status":"pending",
+        "count":0
+    },
+    {   "_id":"2",
+        "status":"Save pending",
+        "count":0
+    }
+    ,
+    {   "_id":"3",
+        "status":"Save ask",
+        "count":0
+    }
+    ,
+    {   "_id":"4",
+        "status":"Post reply",
+        "count":0
+    }
+    ,
+    {   "_id":"5",
+        "status":"Mate request",
+        "count":0
+    }
+    ,
+    {   "_id":"6",
+        "status":"Draft create",
+        "count":0
+    }
+]
