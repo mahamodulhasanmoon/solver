@@ -6,7 +6,7 @@ import { AiOutlineDown } from "react-icons/ai";
 
 const ShowCaseFooter = () => {
   return (
-    <div className="footer mt-auto flex justify-between px-3 pt-4  border-t border-t-darkShade sticky bottom-0 z-50 bg-white  w-full">
+    <div className="footer mt-auto flex justify-between px-3 pt-4  custom-shadow2 sticky bottom-0 z-50 bg-white  w-full">
       <div className="flex justify-between items-center w-full">
         <div className="flex items-center gap-10">
           <GrAttachment />
@@ -17,7 +17,7 @@ const ShowCaseFooter = () => {
             <FaUserFriends />
             <AiOutlineDown></AiOutlineDown>
           </div>
-          <button className="text-bgColor bg-primaryColor rounded border inline-block border-primaryColor px-4 py-2">
+          <button className="text-bgColor bg-primaryColor rounded border inline-block border-primaryColor px-4 py-1">
             Ask
           </button>
         </div>
