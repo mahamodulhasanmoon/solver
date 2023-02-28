@@ -17,17 +17,20 @@ const Ask = () => {
           {/* <input className='w-full rounded-full bg-white border border-deepShade outline-deepShade outline-[0.5px] p-2  placeholder:pl-3 placeholder:text-lg placeholder:text-textColor ' type="text" placeholder={FormInputData.inputPlaceholder} /> */}
 
           <div className="w-full flex items-center rounded-full bg-white border border-deepShade outline-deepShade outline-[0.5px] p-1  placeholder:pl-3 placeholder:text-lg  placeholder:text-textColor ">
-            <Link to='/ask-your-problem' className="pl-4 ">Ask or share your problem</Link>
+            <Link to="/ask-your-problem" className="pl-4 ">
+              Ask or share your problem
+            </Link>
           </div>
 
-          <button className="text-xl p-2  bg-white  rounded-full  border border-deepShade">
+          <Link
+            to="/filter"
+            className="text-xl p-2  bg-white  rounded-full  border border-deepShade"
+          >
             <BiSliderAlt />
-          </button>
+          </Link>
         </div>
       </div>
- <Posts/>
-
- 
+      <Posts />
     </div>
   );
 };

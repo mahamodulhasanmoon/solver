@@ -25,33 +25,18 @@ const Ranks = () => {
           </div>
           {/* points */}
           <div className="poients ">
-            <div className="grid grid-cols-3 grid-rows-2 gap-1">
-              <div className="row-span-2 items-center justify-center grid  bg-bgColor">
-                <p className="text-textColor text-lg  flex items-center justify-center gap-3  ">
-                  <AiOutlineQuestionCircle />
-                </p>
-                <p className="text-textColor text-lg  flex items-center justify-center gap-3">
-                   000000
-                </p>
-              </div>
-              <p className="text-textColor text-lg flex items-center justify-center gap-3  bg-bgColor">
-                <AiOutlineQuestionCircle /> 000000
-              </p>
 
-              {/* next */}
-
-              <p className="text-textColor text-lg flex items-center justify-center gap-3 bg-bgColor">
-              <AiOutlineQuestionCircle />  000000
-              </p>
-              <p className="text-textColor text-lg flex items-center justify-center gap-3 bg-bgColor">
-                <AiOutlineQuestionCircle /> 000000
-              </p>
-              <p className="text-textColor text-lg flex items-center justify-center gap-3 bg-bgColor">
-                <AiOutlineQuestionCircle /> 000000
-              </p>
+            <div className="poients flex mr-10">
+           <div className="w-[100px] h-[40px] bg-deepShade flex items-center justify-center rounded-tl rounded-bl">
+            <span>Your point</span>
+           </div>
+           <div className="w-[100px] h-[40px] rounded-tr rounded-br border border-deepShade flex items-center justify-center">
+            <span>0</span>
+           </div>
             </div>
-          </div>
-        </div>
+          </div> 
+          
+        </div> 
 
 {/* nav Section */}
         <div className="userNav   py-3   ">

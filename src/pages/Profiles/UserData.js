@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 import TaskCard from "../../components/TaskCard";
 
@@ -38,7 +39,7 @@ const UserData = () => {
 
           <div className="grid grid-cols-3 gap-2">
             {taskData.map((taskData) => (
-              <TaskCard key={taskData._id} taskData={taskData} />
+             <Link key={taskData._id} to='/dataDetails'> <TaskCard  taskData={taskData} /></Link>
             ))}
           </div>
 
