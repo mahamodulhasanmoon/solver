@@ -1,30 +1,30 @@
 [
     {   "_id":"1",
-        "status":"pending",
+        "status":"Ask",
         "count":0
     },
     {   "_id":"2",
-        "status":"Save pending",
+        "status":"Ans",
         "count":0
     }
     ,
     {   "_id":"3",
-        "status":"Save ask",
+        "status":"Save",
         "count":0
     }
     ,
     {   "_id":"4",
-        "status":"Post reply",
+        "status":"Reply",
         "count":0
     }
     ,
     {   "_id":"5",
-        "status":"Mate request",
+        "status":"Request",
         "count":0
     }
     ,
     {   "_id":"6",
-        "status":"Draft create",
+        "status":"Draft",
         "count":0
     }
 ]

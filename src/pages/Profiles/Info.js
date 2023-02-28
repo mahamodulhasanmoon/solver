@@ -4,13 +4,13 @@ import UserNav from '../shared/Navbar/UserNav';
 
 const Info = () => {
     return (
-        <div className='max-w-[600px] mx-auto  mb-4 '>
+        <div className='max-w-[600px] mx-auto   '>
           <div className="info bg-white p-3 custom-shadow">
 
             
                 <div className='w-[80%] mx-auto text-right'>
                 <UserNav />
-                    <span className=  ' inline-flex text-primaryColor hover:bg-bgColor text-lg items-center ml-auto gap-3 px-2  '><FiEdit/> Edit</span>
+                    <span className=  ' inline-flex text-primaryColor hover:bg-bgColor text-lg items-center ml-auto gap-3 px-2 rounded-full '><FiEdit/> Edit</span>
                 </div>
           
            
@@ -67,9 +67,9 @@ const Info = () => {
 </table>
 
 {/* description part */}
-<form className="description w-[80%] mx-auto">
+<form className="description w-[80%] mx-auto pb-6">
     <p>Description</p>
-    <textarea className='resize-none h-[100px] w-full mt-3 border border-darkShade'></textarea>
+    <textarea className='resize-none h-[100px] w-full mt-1 border border-darkShade'></textarea>
 </form>
 
 

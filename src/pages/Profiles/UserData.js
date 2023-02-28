@@ -29,7 +29,7 @@ const UserData = () => {
   // 
 
   return (
-    <div className="max-w-[600px] mx-auto bg-white   custom-shadow  mb-4  ">
+    <div className="max-w-[600px] mx-auto bg-white   custom-shadow    ">
       <div className="main-content w-[80%] mx-auto">
         {/* task section */}
         <UserNav />
@@ -45,20 +45,15 @@ const UserData = () => {
           {/* dataSection */}
 
           {/* task section */}
-          <div className="my-6">
+          <div className="mt-6">
             <h3 className="text-lg font-bold mb-2">Data</h3>
 
-            <div className="grid grid-cols-4 gap-2">
+            <div className="grid grid-cols-4 gap-2 pb-12">
               {data.map((taskData) => (
                 <TaskCard key={taskData._id} taskData={taskData} />
               ))}
             </div>
-            {/* data part 2 */}
-            {/* <div className="grid grid-cols-2 gap-5">
-              {data2.map((taskData) => (
-                <TaskCard2 key={taskData._id} taskData={taskData} />
-              ))}
-            </div> */}
+
 
           </div>
         </div>

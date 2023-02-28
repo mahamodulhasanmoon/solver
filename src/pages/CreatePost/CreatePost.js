@@ -1,6 +1,7 @@
 import React from "react";
 import { BiSliderAlt } from "react-icons/bi";
 import { Link } from "react-router-dom";
+import Posts from "../../components/Posts";
 
 const CreatePost = () => {
   return (
@@ -21,6 +22,11 @@ const CreatePost = () => {
           </button>
         </div>
       </div>
+
+      <Posts/>
+     
+
+
     </div>
   );
 };

@@ -3,7 +3,7 @@ import ProfileLayout from "../Layout/ProfileLayout";
 import Tools from "../Layout/Tools";
 
 import Ask from "../pages/Ask/Ask";
-import AskProblem from "../pages/AskProblem/AskProblem";
+import PostDetails from "../pages/PostDetails/PostDetails";
 import CreatePost from "../pages/CreatePost/CreatePost";
 import Find from "../pages/Find/Find";
 import Info from "../pages/Profiles/Info";
@@ -13,6 +13,7 @@ import CommingSoon from "../pages/shared/Errors/CommingSoon";
 import NotFound from "../pages/shared/NotFound";
 import Mode from "../pages/ToolsPage/Mode";
 import Settings from "../pages/ToolsPage/Settings";
+import AskForm from "../pages/Ask/AskForm";
 
 const { createBrowserRouter } = require("react-router-dom");
 
@@ -31,8 +32,16 @@ const solverRoutes = createBrowserRouter([
         element: <Ask />,
       },
       {
+        path:'/posts/id',
+        element: <PostDetails/>
+      },
+      {
+        path:'/ask/posts/id',
+        element: <PostDetails/>
+      },
+      {
         path:'/ask-your-problem',
-        element: <AskProblem/>
+        element: <AskForm/>
       },
       {
         path: "/find",

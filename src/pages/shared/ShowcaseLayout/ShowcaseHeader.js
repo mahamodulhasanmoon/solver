@@ -7,20 +7,20 @@ import { Link } from 'react-router-dom';
 const ShowcaseHeader = () => {
     const [click,setClick]= useState(false)
     return (
-        <div className="header sticky top-0 z-50 bg-white flex justify-between px-3 py-2 border-b border-b-darkShade ">
+        <div className="header sticky top-0 z-50 bg-white flex justify-between px-3 py-4 border-b border-b-darkShade ">
         <h2 className="text-darkShade">Category Name</h2>
         <div className="flex gap-3">
           {" "}
           <div
             onClick={() => setClick((state) => !state)}
-            className="relative cursor-pointer"
+            className="relative cursor-pointer text-darkShade hover:bg-bgColor p-1 rounded-full"
           >
             {" "}
-            <BsThreeDots size={22} />
+            <BsThreeDots  size={22} />
             {/* popup box */}
             <div
               style={{ display: click ? "block" : "none" }}
-              className="popupMenu  bg-[#F0F7FF] absolute right-5 top-8 p-5 shadow-md border border-deepShade w-48"
+              className="popupMenu   bg-white text-textColor absolute right-5 top-8 p-5 shadow-md border border-deepShade w-48"
             >
               <ul>
                 <li>
@@ -47,15 +47,15 @@ const ShowcaseHeader = () => {
                 </li>
                 <li>
                   {" "}
-                  <Link className="flex items-center gap-4 cursor-pointer">
+                  <Link className="flex items-center gap-4 cursor-pointer ">
                     {" "}
-                    <FiEdit2 /> Save ask
+                    <FiEdit2  /> Save ask
                   </Link>
                 </li>
               </ul>
             </div>
           </div>
-          <div>
+          <div className='text-darkShade hover:bg-bgColor p-1 rounded-full'>
             {" "}
             <RxCross2 size={22} />
           </div>

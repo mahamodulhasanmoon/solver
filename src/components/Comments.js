@@ -5,7 +5,7 @@ import { CiHeart } from 'react-icons/ci';
 const Comments = () => {
     return (
 <div className='mb-5'>
-<div className='bg-white borderCustom m-2 p-2'>
+<div className='bg-white borderCustom mx-2 px-2 pb-2 mb-2'>
             <p className='text[15px'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem deleniti facilis quod officia magnam reprehenderit voluptatum quae labore iusto! Possimus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id dolor aspernatur porro quia. Voluptatum totam, tenetur asperiores dolores eligendi natus!.</p>
         </div>
         <div className="grid grid-cols-3 justify-between px-3 text-primaryColor">

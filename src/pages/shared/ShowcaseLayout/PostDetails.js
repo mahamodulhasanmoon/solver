@@ -2,7 +2,7 @@ import React from "react";
 
 const PostDetails = () => {
   return (
-    <div className="p-3">
+    <div className="px-3 pt-3 py-0">
       <div className="postContent">
         <p className="text-justify text-[15px]">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam rerum
