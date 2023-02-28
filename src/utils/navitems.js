@@ -9,7 +9,7 @@ import { FiSearch, FiSettings,FiEdit2 } from "react-icons/fi";
 
 export const navItems = [
 {name: 'Ask',icons:AiOutlineQuestionCircle,path:'/ask'},
-{name: 'Post',icons:FiEdit2,path:'/create-post'},
+{name: 'Post',icons:FiEdit2,path:'/post-feed'},
 {name: 'Find',icons:FiSearch,path:'/find'},
 {name: 'You',icons:AiOutlineUser,path:'/users'},
 

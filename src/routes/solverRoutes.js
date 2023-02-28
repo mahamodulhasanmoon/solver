@@ -4,7 +4,7 @@ import Tools from "../Layout/Tools";
 
 import Ask from "../pages/Ask/Ask";
 import PostDetails from "../pages/PostDetails/PostDetails";
-import CreatePost from "../pages/CreatePost/CreatePost";
+import PostsPage from "../pages/PostPage/PostsPage";
 import Find from "../pages/Find/Find";
 import Info from "../pages/Profiles/Info";
 
@@ -16,6 +16,7 @@ import Settings from "../pages/ToolsPage/Settings";
 import AskForm from "../pages/Ask/AskForm";
 import FilterPage from "../pages/FilterPage/FilterPage";
 import DataDetails from "../pages/DataDetails/DataDetails";
+import CreatePosts from "../pages/CreatePosts/CreatePosts";
 
 const { createBrowserRouter } = require("react-router-dom");
 
@@ -55,7 +56,11 @@ const solverRoutes = createBrowserRouter([
       },
       {
         path: "/create-post",
-        element: <CreatePost />,
+        element: <CreatePosts />,
+      },
+      {
+        path: "/post-feed",
+        element: <PostsPage />,
       },
       {
         path: "/dataDetails",
