@@ -21,8 +21,15 @@ const Posts = () => {
     {element :'Heart'},
     {element :'Comment'},
   ]
+  const dataDetails = [
+    {element :'Solved'},
+    {element :'Time'},
+    {element :'Answer'},
+  ]
 
+  // drop down dynamic menu
 
+  
 
   useEffect(()=>{
    
@@ -33,6 +40,9 @@ const Posts = () => {
     
     if(pathname === '/ask'){
       setFooterLInks(askLinks)
+    }
+    if(pathname === '/dataDetails'){
+      setFooterLInks(dataDetails)
     }
   },[pathname])
 
@@ -61,7 +71,9 @@ const Posts = () => {
               style={{ display: click ? "block" : "none" }}
               className="popupMenu  bg-white absolute rounded right-5 top-8 p-5 shadow-md border border-deepShade w-48"
             >
-              <ul>
+              {
+                pathname !== '/dataDetails' &&
+                <ul>
                 <li>
                   {" "}
                   <Link className="flex items-center gap-4 cursor-pointer">
@@ -92,9 +104,32 @@ const Posts = () => {
                   </Link>
                 </li>
               </ul>
+              }
+              {/* if equel */}
+              {
+                pathname === '/dataDetails' &&
+                <ul>
+                <li>
+                  {" "}
+                  <Link className="flex items-center gap-4 cursor-pointer">
+                    {" "}
+                    <FiEdit2 /> Edit
+                  </Link>
+                </li>
+                <li>
+                  {" "}
+                  <Link className="flex items-center gap-4 cursor-pointer">
+                    {" "}
+                    <FiEdit2 />
+                    Solved
+                  </Link>
+                </li>
+
+              </ul>
+              }
             </div>
           </div>
-          <div className="hover:bg-bgColor rounded-full p-1">
+          <div className={`hover:bg-bgColor rounded-full p-1 ${pathname === "/dataDetails" ? "hidden" : "flex" } ` }>
             {" "}
             <RxCross2 className="text-darkShade" size={22} />
           </div>
