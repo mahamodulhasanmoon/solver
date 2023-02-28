@@ -8,7 +8,7 @@ const Ask = () => {
   const FormBtn = { name: "Filter", icons: "" };
 
   return (
-    <div className="max-w-[560px] mx-auto bg-green-400 my-5">
+    <div className="max-w-[600px] mx-auto bg-green-400 my-5">
       <div
         className="askForm bg-white p-3"
         style={{ boxShadow: "0px 1px 2px rgba(0, 0, 0, 0.25)" }}

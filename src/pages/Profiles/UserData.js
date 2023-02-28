@@ -29,7 +29,7 @@ const UserData = () => {
   // 
 
   return (
-    <div className="max-w-[560px] mx-auto bg-white   custom-shadow  mb-4  ">
+    <div className="max-w-[600px] mx-auto bg-white   custom-shadow  mb-4  ">
       <div className="main-content w-[80%] mx-auto">
         {/* task section */}
         <UserNav />

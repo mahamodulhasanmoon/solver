@@ -9,7 +9,7 @@ const Find = () => {
     const [focused,setFocused]= useState(false)
     
     return (
-        <div className='max-w-[560px] mx-auto bg-green-400 my-5'>
+        <div className='max-w-[600px] mx-auto bg-green-400 my-5'>
             
             <div className="askForm bg-white p-3   custom-shadow">
 

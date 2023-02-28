@@ -7,7 +7,7 @@ import ShowcaseHeader from "./ShowcaseHeader";
 
 const ShowcaseLayout = () => {
   return (
-    <div className="bg-white relative h-[80vh] w-[560px] mx-auto custom-shadow overflow-scroll">
+    <div className="bg-white relative h-[80vh] w-[600px] mx-auto custom-shadow overflow-scroll">
       <div className="min-h-[70vh]">
          <ShowcaseHeader /> 
         <PostDetails />

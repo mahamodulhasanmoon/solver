@@ -19,7 +19,7 @@ const DesktopNav = () => {
             Solver
           </span>
         </div>
-<div className="min-w-[560px]">
+<div className="">
 <div className=" flex justify-between">
           {navItems.map((navItem, index) => (
           <NavLink

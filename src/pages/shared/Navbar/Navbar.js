@@ -20,7 +20,7 @@ const Navbar = () => {
     <nav className="bg-white py-1 sticky top-0 z-30 "  style={{boxShadow:'0px 1px 2px rgba(0, 0, 0, 0.25)'}}>
       <div className=" mx-auto">
 
-      {width < 600 ?  <MobileNav/> : <DesktopNav />}
+      {width < 768 ?  <MobileNav/> : <DesktopNav />}
 
       
       {/* box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);    */}

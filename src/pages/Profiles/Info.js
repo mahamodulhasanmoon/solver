@@ -4,7 +4,7 @@ import UserNav from '../shared/Navbar/UserNav';
 
 const Info = () => {
     return (
-        <div className='max-w-[560px] mx-auto  mb-4 '>
+        <div className='max-w-[600px] mx-auto  mb-4 '>
           <div className="info bg-white p-3 custom-shadow">
 
             
